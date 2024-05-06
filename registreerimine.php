@@ -4,10 +4,10 @@ global $yhendus;
 session_start();
 if (isset($_POST["register"])) {
     $login = htmlspecialchars(trim($_POST['login']));
-    $pass = htmlspecialchars(trim($_POST['pass']));
+    $password = htmlspecialchars(trim($_POST['pass']));
 
     $sool = "taiestisuvalinetekst";
-    $krypt = crypt($pass, $sool);
+    $krypt = crypt($password, $sool);
 
     global $yhendus;
     $kask = $yhendus->prepare("INSERT INTO kasutajad (kasutaja, parool) VALUES (?,?)");
@@ -68,9 +68,9 @@ if (isset($_POST["register"])) {
     }
 
     window.onclick = function (event) {
-        var modal = document.getElementById('registerModal');
-        if (event.target == modal) {
-            modal.style.display = 'none';
+        var regmodal = document.getElementById('registerModal');
+        if (event.target == regmodal) {
+            regmodal.style.display = 'none';
         }
     }
     function validateRegistration() {

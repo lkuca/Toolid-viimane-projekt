@@ -7,10 +7,10 @@ session_start();
 if (!empty($_POST['login']) && !empty($_POST['pass'])) {
     //eemaldame kasutaja sisestusest kahtlase pahna
     $login = htmlspecialchars(trim($_POST['login']));
-    $pass = htmlspecialchars(trim($_POST['pass']));
+    $password = htmlspecialchars(trim($_POST['pass']));
     //SIIA UUS KONTROLL
     $sool = 'taiestisuvalinetekst';
-    $kryp = crypt($pass, $sool);
+    $kryp = crypt($password, $sool);
     //kontrollime kas andmebaasis on selline kasutaja ja parool
     $kask=$yhendus-> prepare("SELECT kasutaja,onAdmin FROM kasutajad WHERE kasutaja=? AND parool=?");
     $kask->bind_param("ss", $login, $kryp);

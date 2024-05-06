@@ -1,5 +1,5 @@
 <?php
-$parool = 'admin';
+$pass = 'admin';
 $sool = 'taiestisuvalinetekst';
-$kryp = crypt($parool, $sool);
+$kryp = crypt($pass, $sool);
 echo $kryp;
