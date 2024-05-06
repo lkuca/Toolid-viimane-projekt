@@ -61,11 +61,11 @@ $kask->bind_result($id,$tool, $tellimiskogus, $valminudkogus, $Varvid);
     ?>
 <table border="1">
     <tr>
-        <th>ID</th>
-        <th>Tool</th>
-        <th>Tellimiskogus</th>
-        <th>Valminudgkogus</th>
-        <th>Varv</th>
+        <th>Id</th>
+        <th>tool</th>
+        <th>tellimiskogus</th>
+        <th>valminudgkogus</th>
+        <th>varv</th>
 
     </tr>
     <?php
