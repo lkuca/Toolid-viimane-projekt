@@ -11,47 +11,34 @@ a, h1, h2, h3, h4, h5, h6 {
     display: inline-block;
 }
 #logir{
-
     color:#fff;
-    background-color:#32373c;
     background-position: center;
     text-decoration:none;
     padding:calc(.667em + 2px) calc(1.333em + 2px);
     font-size:1.125em;
-    color: #97ac9f;
+    color: black;
     pointer-events: auto;
 }
 #registerModal{
-    color:#fff;
-    background-color:#32373c;
     background-position: center;
     text-decoration:none;
     padding:calc(.667em + 2px) calc(1.333em + 2px);
     font-size:1.125em;
-    color: #97ac9f;
+    color: black;
     pointer-events: auto;
 }
 #Register
 select{
-    background-color: #97ac9f;
+    background-color: red;
     text-decoration: none;
     color: black;
 }
-select::selection{
-    color:#000;
-    background: yellow;
-}
-option::selection{
-    color:#000;
-    background: yellow;
-}
 input{
-    background-color: #97ac9f;
     text-decoration: none;
     color: black;
 }
 #srss{
-    background-color: #32373c;
+    background-color: white;
     position: absolute;
     left: 20%;
     border: 3px;
@@ -60,20 +47,16 @@ input{
     color: #97ac9f;
 
 }
-#srss::selection{
-    color:#000;
-    background: yellow;
-}
 
 a:hover {
     border-color: rgba(0, 0, 0, 0.8);
 }
 h1{
-    background-color: mediumblue;
+    background-color: grey;
 
     text-align: center;
     text-decoration: none;
-    color: #97ac9f;
+    color: ghostwhite;
     margin-bottom: 20px;
 }
 a{
@@ -85,37 +68,9 @@ background-color: #97ac9f;
 
 }
 
-a::selection{
-    color:#000;
-    background: yellow;
-}
-h1::selection{
-    color:#000;
-    background: yellow;
-}
-h3::selection{
-    color:#000;
-    background: yellow;
-}
-h2::selection{
-    color:#000;
-    background: yellow;
-}
-th::selection{
-    color:#000;
-    background: yellow;
-}
-label::selection{
-    color:#000;
-    background: yellow;
-}
-input::selection{
-    color:#000;
-    background: yellow;
-}
-table td::selection{
-    color:#000;
-    background: yellow;
+::selection{
+    color:white;
+    background: red;
 }
 th, td{
     pading: 15px;
@@ -125,12 +80,12 @@ th, td{
 
 
 table{
-    color:#fff;
-    background-color:#32373c;
+    color: whitesmoke;
+    background-color:black;
     background-position: center;
     text-decoration:none;
     padding:calc(.667em + 2px) calc(1.333em + 2px);
     font-size:1.125em;
-    color: #97ac9f;
+    color: whitesmoke;
     pointer-events: auto;
 }
