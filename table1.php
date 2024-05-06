@@ -31,7 +31,7 @@ $kask->bind_result($id,$tool, $tellimiskogus, $valminudkogus, $Varvid);
     <link rel="stylesheet" type="text/css" href="stiil.css">
     <title>Toolid</title>
 </head>
-<body>
+<body id="without_background">
 <h1>Valminudkoguse lisamine</h1>
 <?php
     if(isset($_SESSION['kasutaja'])){
