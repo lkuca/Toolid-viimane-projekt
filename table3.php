@@ -54,8 +54,21 @@ function isAdmin()
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Toolid</title>
+    <style>
+        /* Стили для метки */
+        .hello-admin {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            z-index: 1000; /* Чтобы метка была поверх остального контента */
+        }
+    </style>
 </head>
 <body>
+<div class="hello-admin">hello: admin</div>
 <heder>
     <h1>Toolivahendus</h1>
     <?php
