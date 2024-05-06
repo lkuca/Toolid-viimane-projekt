@@ -31,7 +31,7 @@ $kask->bind_result($id,$tool, $tellimiskogus, $valminudkogus, $Varvid);
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="stiil.css">
     <title>Toolid</title>
 </head>
 <body>
@@ -40,22 +40,22 @@ $kask->bind_result($id,$tool, $tellimiskogus, $valminudkogus, $Varvid);
     if(isset($_SESSION['kasutaja'])){
         ?>
         <h1>Tere, <?="$_SESSION[kasutaja]"?></h1>
-        <a href="logout.php">Logi välja</a>
+        <a href="logi_valja.php">Logi välja</a>
         <br>
         <?php
     }else if(isset($_SESSION['onAdmin'])){
         ?>
         <h1>Tere, <?="$_SESSION[onAdmin]"?></h1>
-        <a href="logout.php">Logi välja</a>
+        <a href="logi_valja.php">Logi välja</a>
         <br>
         <?php
     }else{
         $voras = true;
         ?>
             <br>
-        <a href="login.php">Logi sisse</a>
+        <a href="logi_sisse.php">Logi sisse</a>
         <br>
-        <a href="registreerimine.php">Registreeri siin</a>
+        <a href="registration.php">Registreeri siin</a>
         <br>
 
         <br>

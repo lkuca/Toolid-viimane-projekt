@@ -27,7 +27,7 @@ if (isset($_POST["register"])) {
 }
 
 ?>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="stiil.css">
 <h1>Registreerimine</h1>
 <form action="" method="post">
 

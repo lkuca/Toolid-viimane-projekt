@@ -36,7 +36,7 @@ if (!empty($_POST['login']) && !empty($_POST['pass'])) {
     }
 }
 ?>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="stiil.css">
 <div id="logir">
 <h1>Login</h1>
 <a href='table3.php'>Tagasi</a>
