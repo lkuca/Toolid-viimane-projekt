@@ -68,6 +68,7 @@ function isAdmin()
     }else if(isset($_SESSION['onAdmin'])){
         ?>
         <h1>Tere, <?="$_SESSION[onAdmin]"?></h1>
+        <p id="label">Tere, <?="$_SESSION[onAdmin]"?></p>
         <a href="logi_valja.php">Logi välja</a>
         <br>
         <?php
