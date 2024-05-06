@@ -18,12 +18,12 @@ a, h1, h2, h3, h4, h5, h6 {
     text-decoration:none;
     padding:calc(.667em + 2px) calc(1.333em + 2px);
     font-size:1.125em;
-    color: #97ac9f;
+    color: #FFA07A;
     pointer-events: auto;
 }
 #registerModal{
     color:#fff;
-    background-color:#32373c;
+    background-color:#FFC0CB;
     background-position: center;
     text-decoration:none;
     padding:calc(.667em + 2px) calc(1.333em + 2px);
@@ -33,7 +33,7 @@ a, h1, h2, h3, h4, h5, h6 {
 }
 #Register
 select{
-    background-color: #97ac9f;
+    background-color: #FFFACD;
     text-decoration: none;
     color: black;
 }
