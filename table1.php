@@ -32,7 +32,7 @@ $kask->bind_result($id,$tool, $tellimiskogus, $valminudkogus, $Varvid);
     <title>Toolid</title>
 </head>
 <body>
-<h1>Valminudkoguse lisamine</h1>
+<h1>Adding finished quantity</h1>
 <?php
     if(isset($_SESSION['kasutaja'])){
         ?>
@@ -62,10 +62,10 @@ $kask->bind_result($id,$tool, $tellimiskogus, $valminudkogus, $Varvid);
 <table border="1">
     <tr>
         <th>Id</th>
-        <th>tool</th>
-        <th>tellimiskogus</th>
-        <th>valminudgkogus</th>
-        <th>varv</th>
+        <th>Chair</th>
+        <th>order quantity</th>
+        <th>finished quantity</th>
+        <th>color</th>
 
     </tr>
     <?php
@@ -86,8 +86,8 @@ $kask->bind_result($id,$tool, $tellimiskogus, $valminudkogus, $Varvid);
     ?>
 </table>
 <?php
-echo"<h3><a href='table3.php'>Vaata Toolide seis</a></h3>";
-echo"<h3><a href='table2.php'>Vaata tellimuse sissestamine</a></h3>";
+echo"<h3><a href='table3.php'>See the position of the chairs</a></h3>";
+echo"<h3><a href='table2.php'>See placing an order</a></h3>";
 ?>
 </body>
 </html>
