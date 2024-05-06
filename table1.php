@@ -76,7 +76,7 @@ $kask->bind_result($id,$tool, $tellimiskogus, $valminudkogus, $Varvid);
         echo "<td>".$tool."</td>";
         echo "<td>".$tellimiskogus."</td>";
         echo "<td>".$valminudkogus."</td>";
-        echo "<td>".$Vargrfgvid."</td>";
+        echo "<td>".$Varvid."</td>";
         echo "</tr>";
         if ($tellimiskogus > $valminudkogus) {
         echo"<td><a href='?pluspunkt=$id'>Lisa+1punkt</a></td>";
