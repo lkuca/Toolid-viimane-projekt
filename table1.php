@@ -64,7 +64,7 @@ $kask->bind_result($id,$tool, $tellimiskogus, $valminudkogus, $Varvid);
         <th>ID</th>
         <th>Tool</th>
         <th>Tellimiskogus</th>
-        <th>Valminudkogus</th>
+        <th>Valminudgkogus</th>
         <th>Varv</th>
 
     </tr>
