@@ -253,7 +253,7 @@ table{
 # Ülesanded
 - lisa uus background Image
 - muuda php failis muutujate nimed
-- muuda failide nimed
+- tõlki üks fail(mist tahad) inglise keeles
 - css failis muuda värvid
 - kustuta ühel lehel background image
 - lehel table3 paigalda label tere: admin ülevasakule küljesse
